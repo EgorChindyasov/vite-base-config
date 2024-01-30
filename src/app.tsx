@@ -1,7 +1,7 @@
 import { FunctionComponent, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./app.scss";
+import "./app.css";
 
 export const App: FunctionComponent = () => {
 	const [count, setCount] = useState(0);
